@@ -1,0 +1,117 @@
+{
+  "age": {
+    "type": "numeric",
+    "default": 36.0,
+    "min": 18.0,
+    "max": 75.0
+  },
+  "gender": {
+    "type": "categorical",
+    "default": "Male",
+    "choices": [
+      "Female",
+      "Male",
+      "Other"
+    ]
+  },
+  "region": {
+    "type": "categorical",
+    "default": "South",
+    "choices": [
+      "Central",
+      "East",
+      "North",
+      "South",
+      "West"
+    ]
+  },
+  "employment_type": {
+    "type": "categorical",
+    "default": "Salaried",
+    "choices": [
+      "Retired",
+      "Salaried",
+      "Self-Employed",
+      "Student",
+      "Unemployed"
+    ]
+  },
+  "annual_income_inr": {
+    "type": "numeric",
+    "default": 39315.5,
+    "min": 15000.0,
+    "max": 163002.0
+  },
+  "credit_score": {
+    "type": "numeric",
+    "default": 681.0,
+    "min": 440.0,
+    "max": 850.0
+  },
+  "credit_utilization_ratio": {
+    "type": "numeric",
+    "default": 0.3685,
+    "min": 0.002,
+    "max": 0.978
+  },
+  "missed_payments_12m": {
+    "type": "numeric",
+    "default": 1.0,
+    "min": 0.0,
+    "max": 10.0
+  },
+  "avg_late_payment_days": {
+    "type": "numeric",
+    "default": 3.9,
+    "min": 0.1,
+    "max": 47.1
+  },
+  "monthly_transaction_count": {
+    "type": "numeric",
+    "default": 65.0,
+    "min": 5.0,
+    "max": 153.0
+  },
+  "monthly_spend_inr": {
+    "type": "numeric",
+    "default": 19460.5,
+    "min": 3769.0,
+    "max": 87389.0
+  },
+  "cash_advance_count_6m": {
+    "type": "numeric",
+    "default": 0.0,
+    "min": 0.0,
+    "max": 7.0
+  },
+  "complaints_last_6m": {
+    "type": "numeric",
+    "default": 0.0,
+    "min": 0.0,
+    "max": 7.0
+  },
+  "failed_login_attempts_3m": {
+    "type": "numeric",
+    "default": 2.0,
+    "min": 0.0,
+    "max": 12.0
+  },
+  "account_tenure_months": {
+    "type": "numeric",
+    "default": 48.0,
+    "min": 2.0,
+    "max": 180.0
+  },
+  "debt_balance_inr": {
+    "type": "numeric",
+    "default": 35862.0,
+    "min": 3791.0,
+    "max": 213601.0
+  },
+  "day_since_last_transaction": {
+    "type": "numeric",
+    "default": 44.0,
+    "min": 0.0,
+    "max": 89.0
+  }
+}
