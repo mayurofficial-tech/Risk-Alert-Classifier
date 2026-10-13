@@ -63,32 +63,25 @@ interface for entering customer details and viewing a risk prediction.
 
 ## 📂 Project Structure
 
-Organize the repository like this so that the notebook and app can find
-their files:
-
-``` text
+```text
 Risk-Alert-Classifier/
 │
 ├── data/
 │   └── Risk_Alert_Classifier_Dataset.csv
 │
-├── notebooks/
-│   └── train_model.ipynb
-│
 ├── model/
 │   └── model.joblib
+│
+├── notebook/
+│   └── train_model.ipynb
 │
 ├── outputs/
 │   ├── input_schema.json
 │   └── Evaluation.csv
 │
-├── screenshots/
-│   ├── app-home.png
-│   ├── prediction-result.png
-│   └── model-evaluation.png
-│
 ├── app.py
 ├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
