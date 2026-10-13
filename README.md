@@ -271,18 +271,6 @@ feature definitions and input choices from `outputs/input_schema.json`.
 Predicts the high-risk probability when **Predict Risk** is submitted.
 5. Displays the high-risk and low-risk probabilities and the predicted
 risk class.
-
-### App screenshots
-
-Add screenshots to the `screenshots/` folder and uncomment/update these
-examples:
-
-``` markdown
-![Streamlit app home screen](screenshots/app-home.png)
-![Risk prediction result](screenshots/prediction-result.png)
-![Model evaluation](screenshots/model-evaluation.png)
-```
-
 ------------------------------------------------------------------------
 
 ## 📊 Results and Interpretation
@@ -364,12 +352,9 @@ current app assumes the second probability belongs to class `1`.
 
 ## 🌐 Project Links
 
--   **GitHub Repository:** [Add your repository
-    URL](YOUR_GITHUB_REPOSITORY_URL)
--   **Live Streamlit App:** [Add your deployed app
-    URL](YOUR_STREAMLIT_APP_URL)
--   **Project Explanation Video:** [Add your Google Drive or unlisted
-    YouTube link](YOUR_VIDEO_URL)
+-   **GitHub Repository:** [https://github.com/mayurofficial-tech/Risk-Alert-Classifier]
+-   **Live Streamlit App:** [https://risk-alert-classifier-by-master.streamlit.app/]
+-   **Project Explanation Video:** [https://drive.google.com/file/d/16GbdUE1tJ5E10fvuWhKMAEFd14VIcgdI/view?usp=drive_link]
 
 ------------------------------------------------------------------------
 
